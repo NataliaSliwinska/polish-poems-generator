@@ -1,0 +1,66 @@
+body {
+  background-color: #ddeedf;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+  color: #5c715e;
+  text-decoration: none;
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+header {
+  margin-bottom: 40px;
+}
+h1 {
+  text-align: center;
+  font-weight: 800px;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #272044;
+}
+form {
+  padding: 20px;
+  background-color: #f2f9f1;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  margin-bottom: 40px;
+}
+footer {
+  text-align: center;
+  font-size: 13px;
+  color: #272044;
+}
+
+.prompt-input {
+  padding: 15px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 10px;
+  line-height: 1.5;
+  color: #272044;
+}
+.submit-button {
+  margin-left: 10px;
+  padding: 15px 20px;
+  background-color: #b6cdbd;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 150px;
+}
+.poem {
+  font-size: 14px;
+  background-color: #f2f9f1;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid #5c715e;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
