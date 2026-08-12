@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Poem Generator</title>
   </head>
   <div class="container">
@@ -12,7 +13,7 @@
     <h1> AI Poem Generator</h1>
     </header>
     <main>
-      <form>
+      <form id="poem-form">
         <input
         type="text"
         placeholder="Enter a topic for your poem"
@@ -23,9 +24,8 @@
         />
         <input type="submit" class="submit-button" />
       </form>
-      <div class="poem">
-        Śpieszmy się kochać ludzi,
-         tak szybko odchodzą,<br/>zostaną po nich buty i telefon głuchy
+      <div class="poem" id="poem">
+
       </div>
     </main>
     <footer>
@@ -40,7 +40,7 @@
         >GitHub</a
       >
       and hosted on
-      <a href="https://ai-polish-poems-generator.netlify.app/" target="_blank"></a>
+      <a href="https://ai-polish-poems-generator.netlify.app/" target="_blank">
         Netlify</a
       >
     </footer>
