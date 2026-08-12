@@ -64,3 +64,6 @@ footer {
   margin-bottom: 30px;
   border-radius: 5px;
 }
+.poem strong {
+  color: #b6cdbd;
+}
